@@ -63,7 +63,7 @@ int main()
 			scanf_s("%f", &num1);
 			
 			srt1 = sqrt(num1);
-			printf("The Square Root of %d Is %f", num1, srt1);
+			printf("The Square Root of %f Is %f", num1, srt1);
 
 		}	
 		else
