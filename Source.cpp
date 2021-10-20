@@ -6,7 +6,8 @@ int main()
 {
 	float flo1{}, flo2{}, flocal{};
 	char op;
-		printf("Choose an operator: [+,-,/,*,%%,√]\n");
+	char symbol=251;
+		printf("Choose an operator: [+,-,/,*,%%,√]\n", symbol);
 		scanf_s(" %c",&op);
 		if (op == '+')
 		{
@@ -55,7 +56,7 @@ int main()
 				percentage = value / total * 100;
 				printf("The Result Is: %f", percentage);
 		}
-		else if (op == '√')
+		else if (op == symbol)
 		{
 			
 			double srt1, num1;
