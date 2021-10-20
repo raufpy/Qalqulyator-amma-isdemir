@@ -6,7 +6,7 @@ int main()
 {
 	float flo1{}, flo2{}, flocal{};
 	char op;
-		printf("Choose an operator: [+,-,/,*,%%,'kok']\n");
+		printf("Choose an operator: [+,-,/,*,%%,kok]\n");
 		scanf_s(" %c",&op);
 		if (op == '+')
 		{
